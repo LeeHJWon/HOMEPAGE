@@ -7,6 +7,7 @@ h1 {
   text-align: center;
   border-bottom: 1px solid black;
   padding: 20px;
+  padding-top: 0;
   margin: 0;
 }
 
@@ -31,4 +32,8 @@ a {
 
 #content {
   padding-left: 30px;
+}
+
+#CurrentTime {
+  padding-left: 10px;
 }
