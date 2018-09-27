@@ -1,6 +1,6 @@
 function getCurrentTimeString() {
   now = new Date();
-  return now.toTimeString().slice(0, 17);
+  return now.toString().slice(0, -9);
 }
 
 function updateCurrentTimeString() {
